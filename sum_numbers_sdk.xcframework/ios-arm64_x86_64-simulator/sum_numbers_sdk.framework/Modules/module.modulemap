@@ -1,0 +1,11 @@
+framework module sum_numbers_sdk {
+  umbrella header "sum_numbers_sdk.h"
+  export *
+
+  module * { export * }
+}
+
+module sum_numbers_sdk.Swift {
+  header "sum_numbers_sdk-Swift.h"
+  requires objc
+}

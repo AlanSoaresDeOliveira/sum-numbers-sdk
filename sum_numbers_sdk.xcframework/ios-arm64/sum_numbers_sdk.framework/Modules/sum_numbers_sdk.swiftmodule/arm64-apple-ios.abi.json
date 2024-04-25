@@ -1,0 +1,87 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "sum_numbers_sdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SumNumbers",
+        "printedName": "SumNumbers",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SumNumbers",
+                "printedName": "sum_numbers_sdk.SumNumbers",
+                "usr": "s:15sum_numbers_sdk10SumNumbersC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15sum_numbers_sdk10SumNumbersCACycfc",
+            "mangledName": "$s15sum_numbers_sdk10SumNumbersCACycfc",
+            "moduleName": "sum_numbers_sdk",
+            "declAttributes": [
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "sumTwoIntNumbers",
+            "printedName": "sumTwoIntNumbers(x:y:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15sum_numbers_sdk10SumNumbersC0a6TwoIntE01x1yS2i_SitF",
+            "mangledName": "$s15sum_numbers_sdk10SumNumbersC0a6TwoIntE01x1yS2i_SitF",
+            "moduleName": "sum_numbers_sdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15sum_numbers_sdk10SumNumbersC",
+        "mangledName": "$s15sum_numbers_sdk10SumNumbersC",
+        "moduleName": "sum_numbers_sdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
