@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'sum_numbers_sdk'
-    s.version           = '1.0.0'
+    s.version           = '1.0.1'
     s.summary           = 'Framework em IOS para captura de documento.'
     s.homepage          = 'https://github.com/AlanSoaresDeOliveira/sum-numbers-sdk'
 
